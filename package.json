@@ -1,6 +1,6 @@
 {
-  "name": "@Earnwithalee7890/stacksrank-sdk",
-  "version": "1.2.1",
+  "name": "@earnwithalee7890/stacksrank-sdk",
+  "version": "1.2.2",
   "description": "⚡ StacksRank - The Ultimate Stacks Ecosystem Leaderboard & DeFi Platform",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

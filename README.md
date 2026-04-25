@@ -1,4 +1,4 @@
-# @Earnwithalee7890/stacksrank-sdk
+# @earnwithalee7890/stacksrank-sdk
 
 ⚡ **StacksRank - The Ultimate Stacks Ecosystem Leaderboard & DeFi Platform**
 
@@ -19,13 +19,13 @@ StacksRank is engineered to be the ultimate companion for the Stacks Builder Rew
 ## 🛠 Installation
 
 ```bash
-npm install @Earnwithalee7890/stacksrank-sdk
+npm install @earnwithalee7890/stacksrank-sdk
 ```
 
 ## 📖 Usage
 
 ```typescript
-import { StacksRankProvider, CONTRACTS } from '@Earnwithalee7890/stacksrank-sdk';
+import { StacksRankProvider, CONTRACTS } from '@earnwithalee7890/stacksrank-sdk';
 
 const provider = new StacksRankProvider('mainnet');
 

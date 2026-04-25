@@ -1,5 +1,5 @@
 /**
- * @Earnwithalee7890/stacksrank-sdk
+ * @earnwithalee7890/stacksrank-sdk
  * StacksRank Core SDK for Clarity utilities and contract registry.
  */
 
