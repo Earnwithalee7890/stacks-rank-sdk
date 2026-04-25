@@ -1,6 +1,6 @@
 {
-  "name": "@earnwithalee7890/stacksrank-sdk",
-  "version": "1.2.2",
+  "name": "@earnwithalee7890/stacks-rank-sdk",
+  "version": "1.2.4",
   "description": "⚡ StacksRank - The Ultimate Stacks Ecosystem Leaderboard & DeFi Platform",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Earnwithalee7890/stacks-rank-sdk.git"
+    "url": "git+https://github.com/earnwithalee7890/stacks-rank-sdk.git"
   },
   "keywords": [
     "stacks",
