@@ -1,0 +1,62 @@
+{
+  "name": "@earnwithalee/stacksrank-sdk",
+  "version": "1.2.0",
+  "description": "⚡ StacksRank - The Ultimate Stacks Ecosystem Leaderboard & DeFi Platform",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "lint": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Earnwithalee7890/stacks-rank-sdk.git"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "defi",
+    "swap",
+    "vault",
+    "leaderboard",
+    "blockchain",
+    "talent-protocol",
+    "bitcoin-l2",
+    "hiro-api",
+    "smart-contracts",
+    "web3",
+    "stx",
+    "bitcoin"
+  ],
+  "author": "earnwithalee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Earnwithalee7890/stacks-rank-sdk/issues"
+  },
+  "homepage": "https://github.com/Earnwithalee7890/stacks-rank-sdk#readme",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@stacks/common": "^6.13.0",
+    "@stacks/network": "^6.13.0",
+    "@stacks/transactions": "^6.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
